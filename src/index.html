@@ -9,19 +9,333 @@
   <meta name="description" content="TODO: Portfolio website ...">
 
   <link rel="stylesheet" href="./stylesheets/main.scss">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
-  <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
-    
-    Portfolio Website
-  </h1>
+  <nav class="navbar navbar-expand-sm menu shadow">
+    <div class="container d-flex flex-row">
+
+      <a class="navbar-brand justify-content-start" href="#">
+        <i class="bi bi-linkedin px-2"></i>
+        <i class="bi bi-facebook"></i>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero-image">
+    <img src="images/chicago.jpg" alt="Chicago city">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Alex Powell</h1>
+        <h2>Design and Front-end Development</h2>
+        <a class="btn large bi bi-download" href="Resume 2024 copy.pdf" role="button">  Resume</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- services section-->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <section class="section-big main-color" id="services">
+    <div class="container">
+ 
+       <div class="row">
+          <div class="col-md-12 pb-20 text-center"> 
+             <h2 class="section-title mb-10"><span><strong class="primary-color">Services</strong></span></h2>
+            <p class="section-sub-title">
+              Discover the range of services I offer to help you bring your digital projects to life.
+             </p>
+          </div>
+       </div>
+ 
+       <div class="row serviceicon">
+          <div class="col-md-4">
+             <ul class="i-list medium">
+                <li class="i-list-item">
+                   <div class="icon"> <i class="fa fa-code"></i> </div>
+ 
+                   <div class="icon-content">
+                      <h3 class="title">Web Development</h3>
+                      <p class="sub-title">
+                        Custom web development solutions tailored to meet your business needs, from front-end design to back-end functionality.
+                      </p>
+                   </div>
+                   <div class="iconlist-timeline"></div>
+                </li>
+                <li class="i-list-item">
+                   <div class="icon"> <i class="fa fa-desktop"></i> </div>
+ 
+                   <div class="icon-content">
+                      <h3 class="title">UI/UX Design
+                      </h3>
+                      <p>
+                        Creating intuitive and engaging user interfaces that provide a seamless user experience.
+                      </p>
+                   </div>
+                   <div class="iconlist-timeline"></div>
+                </li>
+                <li class="i-list-item">
+                   <div class="icon"> <i class="fa fa-paper-plane"></i> </div>
+ 
+                   <div class="icon-content">
+                      <h3 class="title">Consulting</h3>
+                      <p>
+                        Offering expert advice and strategies to enhance your web presence and optimize your digital projects.
+                      </p>
+                   </div>
+                </li>
+             </ul>
+          </div>
+          <div class="col-md-4">
+             <ul class="i-list medium">
+                <li class="i-list-item">
+                   <div class="icon"> <i class="fa fa-diamond"></i> </div>
+                   <div class="icon-content">
+                      <h3 class="title">Endless Possibilites</h3>
+                      <p class="sub-title">
+                        I'm dedicated to exploring the endless possibilities that technology offers.
+                      </p>
+                   </div>
+                   <div class="iconlist-timeline"></div>
+                </li>
+                <li class="i-list-item">
+                   <div class="icon"> <i class="fa fa-recycle"></i> </div>
+                   <div class="icon-content">
+                      <h3 class="title">Easy &amp; Clean Code</h3>
+                      <p>
+                       ith clean code as the foundation, your project will be well-organized, scalable, and adaptable to future changes.
+                      </p>
+                   </div>
+                   <div class="iconlist-timeline"></div>
+                </li>
+                <li class="i-list-item">
+                   <div class="icon"> <i class="fa fa-check"></i> </div>
+                   <div class="icon-content">
+                      <h3 class="title">Clean &amp; Modern Design</h3>
+                      <p>
+                        I specialize in crafting visually appealing interfaces that are intuitive, user-friendly, and aligned with your brand identity.
+                      </p>
+                   </div>
+                </li>
+             </ul>
+          </div>
+          <div class="col-md-4">
+             <ul class="i-list medium">
+                <li class="i-list-item">
+                   <div class="icon"> <i class="fa fa-codepen"></i> </div>
+                   <div class="icon-content">
+                      <h3 class="title">Maintenance &amp; Support</h3>
+                      <p class="sub-title">
+                        Providing ongoing maintenance and support to ensure your website remains up-to-date and performs optimally.
+                      </p>
+                   </div>
+                   <div class="iconlist-timeline"></div>
+                </li>
+                <li class="i-list-item">
+                   <div class="icon"> <i class="fa fa-newspaper-o"></i> </div>
+                   <div class="icon-content">
+                      <h3 class="title">Multipurpose Concept</h3>
+                      <p>
+                        I design and develop solutions that are flexible, scalable, and tailored to meet your specific needs."
+                      </p>
+                   </div>
+                   <div class="iconlist-timeline"></div>
+                </li>
+                <li class="i-list-item">
+                   <div class="icon"> <i class="fa fa-heart-o"></i> </div>
+                   <div class="icon-content">
+                      <h3 class="title">Crafted With Love</h3>
+                      <p>
+                        Every project I undertake is crafted with passion, dedication, and attention to detail.With a focus on quality and excellence, I strive to exceed your expectations and deliver results that you'll love.
+                      </p>
+                   </div>
+                </li>
+             </ul>
+          </div>
+       </div>
+    </div>
+ </section>
+
+
+ <!-- education section -->
+  <div class="row p-3 education">
+    <h1 class="display-3 fw-bold text-center">Education</h1>
+
+<!-- card 1 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-uppercase mb-1">
+                            Web Essentials Certificate of Proficiency</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">Spring 2024, GPA: 4.00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Card 2 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-left-primary shadow h-100 py-2">
+          <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">
+                         Programming Essentials Certificate of Proficiency</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">In-progress: Spring 2025</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-left-primary shadow h-100 py-2">
+          <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">
+                          Bachelor of Science</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">In-progress: Fall 2025, GPA: 3.80</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+   </div>
+
+    <!-- Card 4 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-left-primary shadow h-100 py-2">
+          <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">
+                          Associate of Science in General Studies</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">Fall 2023, GPA: 3.57</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="about pb-4" id="about">
+
+ <h1 class="text-center pt-5">About Me</h1>
+ <div class="content">
+    <img src="images/profilepic.jpg" alt="image of me">
+    <div class="text">
+      <p>I’m a tech enthusiast with a passion for computers and a heart for gaming. My journey into the digital world was sparked by the thrill of video games, which ignited my desire to create aesthetically pleasing and user-friendly applications. With a keen eye for design and a commitment to simplicity, I aim to eliminate the frustration of hidden functions and convoluted tasks, making the digital experience enjoyable for all.
+        As an aspiring front-end developer, I blend my love for design with technical acumen, striving to craft interfaces that are not only beautiful but also intuitive. My ability to multitask and learn rapidly equips me to adapt and thrive in the fast-paced tech industry. I am dedicated to personal growth and excellence, continually pushing boundaries to become the best version of myself—a developer who brings both functionality and flair to the table.
+        </p>
+        <p>In my free time, I love to reconnect with nature by exploring the great outdoors. Hiking provides a perfect balance to my tech-focused career, offering a chance to clear my mind and find inspiration in the beauty of natural landscapes.
+          Another passion of mine is experimenting with new recipes in the kitchen. I enjoy exploring different cuisines and techniques. This culinary experimentation teaches me patience, attention to detail, and the joy of creating something from scratch. Sharing these culinary creations with friends and family adds a social dimension that complements my tech endeavors.
+          </p>
+      </div>
+  </div>
+</div>
+
+<!-- contact section -->
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold text-capitalize pt-5">Get in touch</h1>
+      <div class="heading-line"></div>
+    </div>
+
+    <div class="row text-white">
+      <div class="col-12 col-lg-6 shadow p-3 contact-info">
+        <div class="cta-info w-100">
+          <h4 class="display-4 fw-bold text-center">I'd love to hear from you</h4>
+          <p class="lh-lg">
+            Whether you have a question about my work, a potential project, or just want to say hello, feel free to reach out. I am always open to discussing new ideas and opportunities. You can contact me via email, phone, or by filling out the form.
+          </p>
+          <h3 class="display-3--brief">Feel free to reach out through any of the following methods. I'll do my best to respond promptly!</h3>
+          <ul class="cta-info__list">
+            <li>Email: alexiapowell@mail.weber.edu</li>
+            <li>Phone: (801) 626-1234.</li>
+            <li>GitHub: https://github.com/Alchemystic23</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 bg-white shadow p-3">
+        <div class="form w-100 pb-2">
+          <form action="#" class="row">
+            <div class="col-lg-12 mb-3">
+              <input type="text" placeholder="Name" id="inputName"
+                class="shadow form-control form-control-lg">
+            </div>
+            <div class="col-lg-12 mb-3">
+              <input type="email" placeholder="Email address" id="inputEmail"
+                class="shadow form-control form-control-lg">
+            </div>
+            <div class="col-lg-12 mb-3">
+              <textarea name="message" placeholder="Message" id="message" rows="8"
+                class="shadow form-control form-control-lg"></textarea>
+            </div>
+            <div class="text-center d-grid mt-1">
+              <button type="submit" value="Submit" class="btn large">
+                submit
+                <i class="bi bi-send"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="d-flex flex-row">
+    <img src="images/logo.png" alt="battle bots logo">
+
+    <div class="col-12 col-sm-6 col-lg-6 mx-auto d-flex flex-column justify-content-center">
+      <h5 class="text-capitalize fw-bold">Alexia Powell</h5>
+      <p>Thanks for visiting!</p>
+
+      <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
+
+      <h5>Feel free to reach out to me directly</h5>
+      <p>Email: alexiapowell@mail.weber.edu <br>
+        Phone: (801) 626-1234.</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom pt-5 pb-5">
+    <div class="container">
+      <div class="row text-center text-white">
+        <div class="col-12">
+          <div class="footer-bottom__copyright">
+            &COPY; Copyright 2024 <a href="#"></a> | Created by Alexia Powell
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
 
   <script type="module" src="./javascripts/main.js"></script>
 </body>
